@@ -9,7 +9,8 @@ const Routes: React.FC = () => (
   <Switch>
     {/* Passar exact apenas na primeira rota */}
     <Route path="/" exact component={Dashboard} />
-    <Route path="/repository" component={Repository} />
+    {/* /:repository+ significa q a rota recebe um parametro */}
+    <Route path="/repository/:repository+" component={Repository} />
   </Switch>
 );
 
