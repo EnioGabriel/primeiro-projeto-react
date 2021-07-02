@@ -10,7 +10,6 @@
 
 ### 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto:
 - [VSCode](https://code.visualstudio.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [API Github](https://api.github.com/)
